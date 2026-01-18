@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fira sans;
+}
+
+body {
+    background: #f6f6f6;
+}
+
+/* NAV */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+
+.btn-outline {
+    padding: 8px 18px;
+    border: 1px solid #1f7a5c;
+    background: none;
+    color: #1f7a5c;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dff2ea;
+    margin: 30px auto;
+    padding: 40px;
+    width: 90%;
+    border-radius: 12px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 12px 20px;
+    background: #1f7a5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 280px;
+}
+
+/* PILLARS */
+.pillars {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.pillars h2 {
+    margin-bottom: 20px;
+}
+
+.pillar-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.pillar-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.pillar-card img {
+    width: 64px;
+    height: 64px;
+}
+
+/* VISION */
+.vision {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.vision h2 {
+    margin-bottom: 20px;
+}
+
+.vision-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.vision-card {
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+.blue { background: #e7f0ff; }
+.green { background: #e6f6ee; }
+.yellow { background: #fff3db; }
+
+.btn-small {
+    margin-top: 15px;
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-small.blue { background: #2b6df3; }
+.btn-small.green { background: #1f7a5c; }
+.btn-small.yellow { background: #f4a100; }
