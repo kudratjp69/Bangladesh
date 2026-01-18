@@ -120,3 +120,85 @@ body {
 .btn-small.blue { background: #2b6df3; }
 .btn-small.green { background: #1f7a5c; }
 .btn-small.yellow { background: #f4a100; }
+
+/* QUOTE SECTION */
+.quote-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.quote-box {
+    position: relative;
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* QUOTATION MARK BEHIND TEXT */
+.quote-bg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    opacity: 1.1;      /* faded watermark */
+    z-index: 1;
+}
+
+/* TEXT ABOVE QUOTE */
+.quote-text,
+.quote-author {
+    position: relative;
+    z-index: 2;
+}
+
+.quote-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    font-size: 13px;
+    color: #555;
+}
+
+
+/* OPINION SECTION */
+.opinion-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.opinion-section h2 {
+    margin-bottom: 15px;
+}
+
+.opinion-box {
+    background: #e7f5ef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.opinion-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.opinion-row p {
+    font-size: 14px;
+    max-width: 75%;
+}
+
+.opinion-row select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
