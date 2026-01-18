@@ -271,3 +271,145 @@ body {
 .btn-read:hover {
     background: #155c45;
 }
+
+/* Donate Section */
+.donate-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.donate-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #666;
+  font-size: 14px;
+}
+
+.donation-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.donation-options button {
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.donation-options .active {
+  background: #cfeee0;
+  border-color: #cfeee0;
+}
+
+.other-amount {
+  width: 300px;
+  max-width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.donate-btn {
+  display: block;
+  margin: 0 auto;
+  background: #0b6b44;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  background: #cfeee0;
+  margin: 60px auto;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 90%;
+}
+
+.newsletter-section h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.newsletter-section p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  padding: 12px;
+  width: 280px;
+  border-radius: 6px;
+  border: none;
+}
+
+.newsletter-form button {
+  padding: 12px 25px;
+  background: #0b6b44;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.newsletter-section small {
+  display: block;
+  margin-top: 15px;
+  color: #555;
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.site-footer h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.social-icons a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
